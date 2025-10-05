@@ -1,9 +1,4 @@
-function writeOutput(text) {
-  const outputDiv = document.getElementById('output');
-  const p = document.createElement('p');
-  p.textContent = text;
-  outputDiv.appendChild(p);
-}
+
 
 // 1. Write a loop to print numbers from 1 to 10
 console.log("--- 1. Numbers from 1 to 10 ---");
@@ -78,3 +73,4 @@ console.log("--- 9. Arrow function ---");
 const greet = name => `Hello, ${name}`;
 console.log("Using the arrow function:", greet("Bob"));
 console.log("\n");
+
